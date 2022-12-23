@@ -56,8 +56,8 @@ function renderTodo(data) {
             <p class="fs-5 col-md-8"><small>Estado: ${data.status}</small></p>
             <p class="fs-5 col-md-8"><small>Fecha de creacion: ${data.created_at}</small></p>
             <div class="mb-5">
-                <a href="/" class="btn btn-primary">Regresar</a>
-                <a href="#" class="btn btn-primary">Editar</a>
+                <a href="./index.html" class="btn btn-primary">Regresar</a>
+                <a href="./edit.html?id=${id}" class="btn btn-primary">Editar</a>
                <button onclick="deleteTodo()" class="btn btn-danger">Eliminar</button>
             </div>
         </main>
